@@ -8,9 +8,6 @@ controller.right.onEvent(ControllerButtonEvent.Repeated, function () {
 scene.onHitWall(SpriteKind.Bubble, function (sprite, location) {
     bubble.stick_to_wall(sprite, location)
 })
-info.onScore(100, function () {
-	
-})
 controller.left.onEvent(ControllerButtonEvent.Repeated, function () {
     bubble.tilt_angle(bubble.Choice.Left)
 })
